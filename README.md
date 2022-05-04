@@ -1,7 +1,10 @@
 # ZhangW
 A biosynthesis gene cluster finding tool
 
-
+Data preparation:
+1. Download genome files as we discribed in ncbi_genome_download.txt.
+2. Choose the genomes and make lists named as refseq_dic.txt and genbank_dic.txt for refseq and genbank, respectively.
+3. 
 
 
 Usage:
