@@ -6,13 +6,6 @@ BGCs can be detected in the query genomes by scanning the conserved protein doma
 e.g. You have a BGC that contain a core gene A and other genes B, C, D, E. To explore the similar BGCs in all the query genomes, you can use MEAT to search the conserved domains in A and B. If C, D, and E have no predicted conserved domains, you can explore the similar proteins using BLASTP. You can define the exploration in a window size, such as 15 Kb or larger. In addition, the cutoffs of domain similarity and protein similarity can also be definded accoding to their conservation.
 
 
-#############################################################
-#********Mycology Exploring Annotation Tool*****************#
-#********************MEAT by ZHANG W************************#
-#******zhangww@big.ac.cn    Wechat&TEL:18210123493**********#
-#***********Beijing Institute of Genomics, CAS, CN**********#
-#***********************************************************#
-#############################################################
 
 
 Data preparation:
