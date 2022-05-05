@@ -1,5 +1,6 @@
 # ZhangW
 
+Mycology Exploring Annotation Tool (MEAT)
 
 A biosynthesis gene cluster (BGC) finding tool
 
