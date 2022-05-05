@@ -18,7 +18,7 @@ Data preparation:
 6. Run ./pfam_annot_genbank.py and ./pfam_annot_refseq.py       to prepare pfam annotation
 7. Run ./make_blast_database.py     to prepare BLAST database
 
-Then MEAT program is prepared. Example in Toy can help to test this workflow works or not.
+Then MEAT program is prepared. Example in MEAT/Toy/ can help to test this workflow works or not.
 
 
 Usage:
