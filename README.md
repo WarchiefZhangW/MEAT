@@ -30,7 +30,7 @@ Example:
 
 cp ~/MEAT/Toy/* ~/MEAT/
 
-./MEAT.py query_sequence.fasta query_pfam.pfam blast_proteins_D.txt 50000 0.3
+./MEAT.py query_sequence.fasta query_pfam_A.pfam blast_proteins_D.txt 50000 0.3
 
 
 
