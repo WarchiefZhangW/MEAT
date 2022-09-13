@@ -12,12 +12,20 @@ e.g. You have a BGC that contain a core gene A and other genes B, C, D, E. To ex
 
 
 Data preparation:
-1. Download genome files as we discribed in ncbi_genome_download.txt.
-3. Choose the genomes and make lists named as refseq_dic.txt and genbank_dic.txt for refseq and genbank, respectively.
-4. Run ln -s ~/MEAT/fastformat_nt_nospacetittle.py /usr/bin       to link the fastformat_nt_nospacetittle.py function.
-5. Run ./treat_rawdata.py        to prepare the protein sequences.
-6. Run ./pfam_annot_genbank.py and ./pfam_annot_refseq.py       to prepare pfam annotation
-7. Run ./make_blast_database.py     to prepare BLAST database
+1. Prepare fungal genome data.#This step can be skipped if you download our Fungal-pro database and decompress it here.
+1.1. Download genome files as we discribed in ncbi_genome_download.txt.
+1.2. Choose the genomes and make lists named as refseq_dic.txt and genbank_dic.txt for refseq and genbank, respectively.
+1.3. Run ln -s ~/MEAT/fastformat_nt_nospacetittle.py /usr/bin       to link the fastformat_nt_nospacetittle.py function.
+1.4. Run ./treat_rawdata.py        to prepare the protein sequences.
+1.5. Run ./pfam_annot_genbank.py and ./pfam_annot_refseq.py       to prepare pfam annotation
+1.6. Run ./make_blast_database.py     to prepare BLAST database
+
+
+2. (Optional) Download Fungal-pro database: https://github.com/WarchiefZhangW/Fungal-pro and decompress here, then skip step 1.
+
+
+
+
 
 Then MEAT program is prepared. Example in MEAT/Toy/ can help to test this workflow works or not.
 
